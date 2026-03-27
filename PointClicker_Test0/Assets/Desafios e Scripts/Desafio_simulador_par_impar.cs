@@ -16,7 +16,9 @@ public class Desafio_simulador_par_impar : MonoBehaviour
 
         Debug.Log("o jogador: " + jogador1 + " escolheu: " + mao_jogador1);
         Debug.Log("o jogador: " + jogador2 + " escolheu: " + mao_jogador2);
-
+        Debug.Log("PAR!....IMPAR!");
+        Debug.Log($"o jogador: {jogador1} escolheu o numero: {numeroJogador1}");
+        Debug.Log($"o jogador: {jogador2} escolheu o numero: {numeroJogador2}");
         /*
         if (mao_jogador1 == "par") 
         { 
